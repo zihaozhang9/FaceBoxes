@@ -45,7 +45,7 @@ layer {
     }
   }
   data_param {
-    source: "/home/ly/workspace/caffe-master/data/face/CelebA/face/lmdb/face_trainval_lmdb/"
+    source: "/home/ly/workspace/caffe-master/data/face/WIDER/face/lmdb/face_trainval_lmdb/"
     batch_size: 32
     backend: LMDB
   }
@@ -2871,16 +2871,3 @@ layer {
     code_type: CENTER_SIZE
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
