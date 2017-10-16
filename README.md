@@ -23,7 +23,7 @@ The accuracy in FDDB which is higher than 0.9. The model contained in  as a pret
 
 Inatall caff-ssd.
 
-A imdb dataset is necessray to train a model which has labels in a Caffe model. 
+A imdb dataset is necessray to train a model. 
 
 ## Contact
 
