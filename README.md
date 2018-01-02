@@ -25,6 +25,3 @@ Inatall caff-ssd.
 
 A imdb dataset is necessray to train a model. 
 
-## Contact
-
-QQ群:673071218
