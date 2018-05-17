@@ -1,5 +1,8 @@
-Faceboxes Reproduce
-===
+## Faceboxes 完整复现
+
++ 经作者同意，我们更新了完整复现 @lippman1125
++ [原始不需要修改caffe版本参见](https://github.com/zeusees/FaceBoxes/tree/master/faceboxes-without-dense)，该版本没有做稠密化。
+
 
 1. CAFFE安装：<br>
 ---
