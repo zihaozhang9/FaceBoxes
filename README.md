@@ -1,10 +1,10 @@
 ## Faceboxes 完整复现
 
-+ 经作者同意，我们更新了完整复现 @lippman1125
++ 经作者同意，我们更新了完整复现 @[lippman1125](https://github.com/lippman1125)
 + [原始不需要修改caffe版本参见](https://github.com/zeusees/FaceBoxes/tree/master/faceboxes-without-dense)，该版本没有做稠密化。
 
 
-1. CAFFE安装：<br>
+### 1. CAFFE安装：<br>
 ---
 Makefile.config已经修改了好了，使用GPU的方式 <br>
 所以直接使用下面的命令编译： <br>
@@ -16,7 +16,7 @@ Makefile.config已经修改了好了，使用GPU的方式 <br>
     # (Optional)        
     make runtest -j8    
 ```
-2. 数据处理：<br>
+### 2. 数据处理：<br>
 --- 
  >>(1) 利用脚本wider_face_2_voc.py脚本把wider_face数据转换成VOC格式。并遮盖掉小于20x20的人脸。<br>
  >>  脚本的位置在：
