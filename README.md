@@ -49,7 +49,7 @@ cd caffe
 \# and make soft links at examples/FACE/                                                  
 ./data/FACE/create_data.sh                                                                
 ```
-3. 训练：<br>
+### 3. 训练：<br>
 ---
 >> 训练需要的参数文件和网络文件位置如图：
 >>![train](https://github.com/lippman1125/github_images/blob/master/faceboxes_images/faceboxes_train.jpg)
@@ -57,7 +57,7 @@ cd caffe
 >> 运行以下命令开始训练：<br>
 >> ./build/tools/caffe train --solver examples/faceboxes/solver.prototxt
 
-4. 测评：<br>
+### 4. 测评：<br>
 ---
 >> 测评脚本以及模型文件位置如图：
 ![test](https://github.com/lippman1125/github_images/blob/master/faceboxes_images/faceboxes_demo.jpg)
@@ -71,10 +71,10 @@ cd caffe
 >> 效果图：<br>
 ![demo](https://github.com/lippman1125/github_images/blob/master/faceboxes_images/img_demo.jpg)
 
-5. 参考：<br>
+### 5. 参考：<br>
 ---
 >>参考的仓库：https://github.com/lsy17096535/faceboxes
 
-6. 优化：<br>
+### 6. 优化：<br>
 ---
 >>train.prototxt支持Anchor densification strategy
