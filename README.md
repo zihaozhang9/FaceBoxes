@@ -1,4 +1,16 @@
-## Faceboxes 完整复现
+项目克隆自[zeusees](https://github.com/zeusees/FaceBoxes) <br>
+caffe编译成功时的[Makefile_my.config](https://github.com/zihaozhang9/FaceBoxes/blob/master/Makefile_my.config) <br>
+caffe编译成功时的[environment.txt](https://github.com/zihaozhang9/FaceBoxes/blob/master/environment.txt) <br>
+caffe编译过程参考[csdn](https://blog.csdn.net/firing00/article/details/96732745) <br>
+
+## 实验 <br>
+### 速度测试： <br>
+环境：i5 1080ti ubuntu18.04  <br>
+此项目速度（FPS）：GPU 6; CPU 3 <br>
+[pytorch版code](https://github.com/zisianw/FaceBoxes.PyTorch)(FPS)：GPU 32 ; CPU 16 <br>
+
+
+## Faceboxes 完整复现 <br>
 
 + 经作者同意，我们更新了完整复现 @[lippman1125](https://github.com/lippman1125)
 + [原始不需要修改caffe版本参见](https://github.com/zeusees/FaceBoxes/tree/master/faceboxes-without-dense)，该版本没有做稠密化。
