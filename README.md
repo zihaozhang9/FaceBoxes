@@ -8,7 +8,7 @@ caffe编译过程参考[csdn](https://blog.csdn.net/firing00/article/details/967
 环境：i5 1080ti ubuntu18.04  <br>
 此项目速度（FPS）：GPU 6; CPU 3 <br>
 [pytorch版code](https://github.com/zisianw/FaceBoxes.PyTorch)(FPS)：GPU 32 ; CPU 16 <br>
-
+结果：[回复：](https://github.com/zeusees/FaceBoxes/issues/42#issuecomment-513614090)caffe的很多layer实现都是原始方式，没有很多的考虑效率跟速度，但是思路清晰。很多新的框架进行了针对不同设备，平台的优化，有速度优势。 <br>
 
 ## Faceboxes 完整复现 <br>
 
